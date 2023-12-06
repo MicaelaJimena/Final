@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="styles.css">
+    <title>App de Lectura de Menús</title>
+</head>
+<body>
+    <header>
+        <h1>App de Lectura de Menús</h1>
+    </header>
+
+    <main>
+        <form id="menuForm">
+            <label for="menuSelector">Selecciona un menú:</label>
+            <select id="menuSelector" name="menu">
+              
+            </select>
+            <button type="button" onclick="buscarMenu()">Buscar</button>
+        </form>
+
+        <div id="menuCards" class="card-container">
+           
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
